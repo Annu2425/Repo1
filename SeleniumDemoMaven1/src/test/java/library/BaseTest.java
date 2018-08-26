@@ -17,7 +17,7 @@ public class BaseTest implements Constants {
 		System.setProperty(CHROME_KEY, CHROME_PATH);
 		driver=new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		driver.manage().window().maximize();
+		driver.manage().window().maximize();  
 	}
 
 	
