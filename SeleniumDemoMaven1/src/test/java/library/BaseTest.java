@@ -21,7 +21,7 @@ public class BaseTest implements Constants {
 	}
 
 	
-	@AfterMethod
+	@AfterMethod(alwaysRun=true)
 	public void closeBrowser()
 	{
 		driver.quit();
