@@ -14,7 +14,7 @@ public class BasePage
 	public WebDriverWait wait;
 	
 	public BasePage(WebDriver driver) 
-	{
+	{ 
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 		wait=new WebDriverWait(driver, 20);	
