@@ -30,7 +30,7 @@ public class FacebookGoogleResultPO extends BasePage {
 		
 	}
 	*/
-	@FindBy(xpath="//a[text='")
+	@FindBy(xpath="//a[text()='Facebook - Log In or Sign Up']")
 	
 	
 	private WebElement fbSrcResLink;
